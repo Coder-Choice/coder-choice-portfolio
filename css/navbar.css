@@ -79,6 +79,7 @@ html{
     display:flex;
     justify-content:center;
     align-items:flex-start;
+    gap:20px;
 }
 
 .mobile-nav-icon{
@@ -87,7 +88,7 @@ html{
 }
 
 .mobile-navbar-btn{
-    /* display:none; */
+    display:none;
     background-color:transparent;
     cursor:pointer;
 }
@@ -96,8 +97,7 @@ html{
     display:none;
 }
 
-/*Responsive Design*/
-/*980px=62em*/ 
+/*Responsive Design*/ 
 @media(max-width:980px){
     .mobile-navbar-btn{
         display:block;
