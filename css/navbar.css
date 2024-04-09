@@ -8,10 +8,12 @@
 html{
     font-size:6.5%; 
     overflow-x:hidden;
+    
 }
 
 body{
     overflow-x:hidden; 
+    overflow-x:hidden;
 }
 
 .header{
