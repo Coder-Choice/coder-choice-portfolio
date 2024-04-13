@@ -1,61 +1,121 @@
-#home{
-    justify-content: center;
-    text-align: left;
-    text-decoration: solid;
+/* ====================== Home Section CSS ====================== */
 
-}
-.unlock{
-font-size: 40px;
-font-weight: 500px;
-}
-.lorem{
-    font-size: 20px;
-    font-weight: 600px;
-}
-#con{
-    padding: 5px 35px;
-    text-align: center;
-    font-size: 20px;
-    border-radius: 50px;
-    background-color:  rgb(66, 66, 216);
-}
-#con:hover{
-    background-color: rgb(76, 76, 159);
-}
-#reg{
-    padding: 5px 35px;
-    text-align: center;
-    color: blue;
-    text-decoration: solid;
-    font-size: 20px;
-    border-color: blue;
-    border-width: 5px;
-    border-radius: 50px;
-    background-color: black;
- 
-     
-}
-#reg:hover{
-    background-color:  rgb(76, 76, 159);
-}
-
-
- .img{
-    width: 369px;
-    height: 369px;
-    /* padding: 20px; */
-    top:0;
-}
-.flex-container{
-    padding: 100px;
+.homeSection{
+    /* background-color: red; */
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
-    gap: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 30px;
+}
+/* ========= Left Section Css ========= */
+
+.homeSection .left{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 70%;
+    gap: 25px;
+}
+.heading{
+    font-family: Poppins;
+font-size: 52px;
+font-style: normal;
+font-weight: 600;
+line-height: 124%; /* 62px */
+letter-spacing: 2px;
+width: 100%;
+background: linear-gradient(264deg, #D3DBFF 21.67%, #5271FF 86.63%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.heading b{
+    color: var(--text-color) !important;
+    -webkit-text-fill-color:#FFF;
+    font-weight: 600;
+}
+.sub-heading
+{
+    color: #FFF;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: 124%; /* 27.28px */
+letter-spacing: 2px;
+width: 100%;
+max-width: 600px;
+/* background-color: red; */
 }
 
-/* .button1{
-    gap:100px;
-} */
+.button-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
 
-.container{
-    justify-content: space-around;
 }
+.button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-family: Poppins;
+    color: var(--background-color);
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.1px;
+border: 4px solid var(--primary-color);
+background-color: var(--primary-color);
+cursor: pointer;
+transition: var(--transition);
+text-transform: capitalize;
+}
+.button:hover{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+.button.type-2
+{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+.button.type-2:hover{
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+/* ========= Right Section ========= */
+
+.homeSection .right{
+    /* background-color: yellow; */
+    width: 25%;
+    position: relative;
+    background-color: transparent;
+    border-radius: 20px;
+    
+}
+.homeSection .right .glow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 300px;
+    background-color: #935aca;
+    filter: blur(150px);
+    z-index: -1;
+
+}
+
+
+.homeSection .right img{
+    width: 100%;
+    
+}
+
