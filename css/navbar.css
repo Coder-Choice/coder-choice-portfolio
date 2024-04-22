@@ -76,7 +76,7 @@ body{
 }
 
 .Choice{
-    
+    color: var(--text-color);
     font-size:35rem;
     font-weight: 600;
     

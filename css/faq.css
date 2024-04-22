@@ -1,0 +1,231 @@
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#content span{
+    margin: 41px 403px auto 403px;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    background: linear-gradient(208deg, #FFF -15.31%, #5271FF 85.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#content div{
+    width: 944px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 159%; /* 34.98px */
+    letter-spacing: 0.88px;
+}
+
+
+/*First Grid Section*/
+#grid1{
+    margin: 96px 218px 34px 218px;
+    display: grid;
+    grid-template-rows: 390px 50px 290px;
+    grid-template-columns: 600px 50px 430px;
+}
+
+/*All Grid Parts From 1st Section*/
+#grid1 #grid-part1{
+    display: grid;
+    border-radius: 10px;
+    background: rgba(82, 113, 255, 0.12);
+    grid-row: 1/2;
+    grid-column: 1/2;
+    padding: 22px;
+    gap: 12px;
+}
+#grid1 #grid-part2{
+    display: grid;
+    border-radius: 10px;
+    background: rgba(82, 113, 255, 0.12);
+    grid-row: 3/4;
+    grid-column: 1/2;
+    padding: 22px;
+    gap: 12px;
+}
+#grid1 #grid-part3{
+    display: grid;
+    border-radius: 10px;
+    background: rgba(82, 113, 255, 0.12);
+    grid-row: 1/4;
+    grid-column: 3/4;
+    padding: 22px;
+    gap: 12px;
+}
+/*All Grid Headings from 1st Section*/
+#grid1 #grid-heading1{
+    width: 520px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 159%; /* 44.52px */
+    letter-spacing: 1.12px;
+}
+#grid1 #grid-heading2{
+    width: 520px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 159%; /* 44.52px */
+    letter-spacing: 1.12px;
+}
+#grid1 #grid-heading3{
+    width: 358px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 159%; /* 44.52px */
+    letter-spacing: 1.12px;
+}
+/*All Grid Contents from 1st Section*/
+#grid1 #grid-content1{
+    width: 516px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 159%; /* 34.98px */
+    letter-spacing: 0.88px;
+}
+#grid1 #grid-content2{
+    width: 516px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 159%; /* 34.98px */
+    letter-spacing: 0.88px;
+}
+#grid1 #grid-content3{
+    width: 337px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 159%; /* 34.98px */
+    letter-spacing: 0.88px;
+}
+/*Second Grid Section*/
+#grid2{
+    margin: 34px 218px 50px 218px;
+    display: grid;
+    grid-template-rows: 390px 50px 290px;
+    grid-template-columns: 430px 50px 600px;
+}
+
+/*All Grid Parts From 2nd Section*/
+#grid2 #grid-part3{
+    display: grid;
+    border-radius: 10px;
+    background: rgba(82, 113, 255, 0.12);
+    grid-row: 1/4;
+    grid-column: 1/2;
+    padding: 22px;
+    gap: 12px;
+}
+#grid2 #grid-part1{
+    display: grid;
+    border-radius: 10px;
+    background: rgba(82, 113, 255, 0.12);
+    grid-row: 1/2;
+    grid-column: 3/4;
+    padding: 22px;
+    gap: 12px;
+}
+#grid2 #grid-part2{
+    display: grid;
+    border-radius: 10px;
+    background: rgba(82, 113, 255, 0.12);
+    grid-row: 3/4;
+    grid-column: 3/4;
+    padding: 22px;
+    gap: 12px;
+}
+
+/*All Grid Headings from 2nd Section*/
+#grid2 #grid-heading3{
+    width: 358px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 159%; /* 44.52px */
+    letter-spacing: 1.12px;
+}
+#grid2 #grid-heading1{
+    width: 520px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 159%; /* 44.52px */
+    letter-spacing: 1.12px;
+}
+#grid2 #grid-heading2{
+    width: 520px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 159%; /* 44.52px */
+    letter-spacing: 1.12px;
+}
+
+/*All Grid Contents from 2nd Section*/
+#grid2 #grid-content3{
+    width: 337px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 159%; /* 34.98px */
+    letter-spacing: 0.88px;
+}
+#grid2 #grid-content1{
+    width: 516px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 159%; /* 34.98px */
+    letter-spacing: 0.88px;
+}
+#grid2 #grid-content2{
+    width: 516px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 159%; /* 34.98px */
+    letter-spacing: 0.88px;
+}
