@@ -1,4 +1,8 @@
 footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
     height: 188px;
     flex-shrink: 0;
@@ -23,45 +27,45 @@ footer{
 }
 #coc{
     position: absolute;
-    color: #FFF;
+    color: var(--text-color);
     font-family: Poppins;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 95px auto 71px 75px;
+    margin: 0% auto 7% -45%;
 }
 #email{
     position: absolute;
-    color: #FFF;
+    color: var(--text-color);
     font-family: Poppins;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 116px auto 71px 75px;
+    margin: 2% auto 7% -45%;
 }
 #ccgmail{
     position: absolute;
-    color: #5271FF;
+    color: var(--primary-color);
     font-family: Poppins;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 116px auto 71px 165px;
+    margin: 2% auto 7% -39%;
 }
 #back{
     display: flex;
     justify-content: space-between;
 }
 #back img{
-    margin: 97px -2px 28px 720px;
+    margin: 222% 13% 244% -57%;
 }
 #back-to-top{
-    margin: 130px -2px 28px 674px;
+    margin: 3% 16% 20% -4%;
     position: absolute;
-    color: white;
+    color: var(--text-color);
     font-size: 20px;
     font-family: Poppins;
     font-weight: 500;
@@ -73,12 +77,12 @@ footer{
 }
 .codchoicefooter img{
     position: absolute;
-    margin: -124px 370px -15px 1022px;
+    margin: -4% 12% 21% 19%;
 }
 #cod{
     position: absolute;
-    margin:  -123px 361px -23px 1077px;
-    color: #5271FF;
+    margin: -4% 15% 22% 23%;
+    color: var(--primary-color);
     font-size: 25px;
     font-family: Poppins;
     font-weight: 500;
@@ -86,16 +90,22 @@ footer{
 }
 #choice{
     position: absolute;
-    margin: -123px 361px -23px 1182px;
-    color: white;
+    margin: -4% 15% 22% 30%;
+    color: var(--text-color);
     font-size: 25px;
     font-family: Poppins;
     font-weight: 500;
     word-wrap: break-word
 }
+form{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+}
 #sub-button{
     position: absolute;
-    margin: -60px 10px 26px 978px;
+    border: none;
+    margin: 0% 16% 22% 17%;
     color: #000;
     font-family: Poppins;
     font-size: 12px;
@@ -110,15 +120,15 @@ footer{
     gap: 10px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: #5271FF;
+    background: var(--primary-color);
 }
 input{
     position: absolute;
-    margin: -60px 55px 26px 1069px;
+    margin: 0% 16% 22% 23%;
     width: 206px;
     height: 29px;
     flex-shrink: 0;
     border-radius: 5px;
-    border: 2px solid #5271FF;
-    background: #D9D9D9;
+    border: 2px none var(--primary-color);
+    background: var(--text-color);
 }
