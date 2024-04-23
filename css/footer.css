@@ -1,8 +1,4 @@
 footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     position: relative;
     height: 188px;
     flex-shrink: 0;
@@ -27,45 +23,45 @@ footer{
 }
 #coc{
     position: absolute;
-    color: var(--text-color);
+    color: #FFF;
     font-family: Poppins;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 0% auto 7% -45%;
+    margin: 95px auto 71px 75px;
 }
 #email{
     position: absolute;
-    color: var(--text-color);
+    color: #FFF;
     font-family: Poppins;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 2% auto 7% -45%;
+    margin: 116px auto 71px 75px;
 }
 #ccgmail{
     position: absolute;
-    color: var(--primary-color);
+    color: #5271FF;
     font-family: Poppins;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 2% auto 7% -39%;
+    margin: 116px auto 71px 165px;
 }
 #back{
     display: flex;
     justify-content: space-between;
 }
 #back img{
-    margin: 222% 13% 244% -57%;
+    margin: 97px -2px 28px 720px;
 }
 #back-to-top{
-    margin: 3% 16% 20% -4%;
+    margin: 130px -2px 28px 674px;
     position: absolute;
-    color: var(--text-color);
+    color: white;
     font-size: 20px;
     font-family: Poppins;
     font-weight: 500;
@@ -77,12 +73,12 @@ footer{
 }
 .codchoicefooter img{
     position: absolute;
-    margin: -4% 12% 21% 19%;
+    margin: -124px 370px -15px 1022px;
 }
 #cod{
     position: absolute;
-    margin: -4% 15% 22% 23%;
-    color: var(--primary-color);
+    margin:  -123px 361px -23px 1077px;
+    color: #5271FF;
     font-size: 25px;
     font-family: Poppins;
     font-weight: 500;
@@ -90,22 +86,16 @@ footer{
 }
 #choice{
     position: absolute;
-    margin: -4% 15% 22% 30%;
-    color: var(--text-color);
+    margin: -123px 361px -23px 1182px;
+    color: white;
     font-size: 25px;
     font-family: Poppins;
     font-weight: 500;
     word-wrap: break-word
 }
-form{
-    display: inline-block;
-    align-items: center;
-    justify-content: space-evenly;
-}
 #sub-button{
     position: absolute;
-    border: none;
-    margin: 0% 16% 22% 17%;
+    margin: -60px 10px 26px 978px;
     color: #000;
     font-family: Poppins;
     font-size: 12px;
@@ -120,15 +110,25 @@ form{
     gap: 10px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: var(--primary-color);
+    background: #5271FF;
 }
 input{
     position: absolute;
-    margin: 0% 16% 22% 23%;
+    margin: -60px 55px 26px 1069px;
     width: 206px;
     height: 29px;
     flex-shrink: 0;
     border-radius: 5px;
-    border: 2px none var(--primary-color);
-    background: var(--text-color);
+    border: 2px solid #5271FF;
+    background: #D9D9D9;
+}
+
+.fa-github{
+    font-size: 40px;
+    text-transform: none;
+    color: var(--text-color);
+    transition: var(--transition);
+}
+.fa-github:hover{
+    color: var(--primary-color);
 }
