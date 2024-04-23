@@ -122,3 +122,13 @@ input{
     border: 2px solid #5271FF;
     background: #D9D9D9;
 }
+
+.fa-github{
+    font-size: 40px;
+    text-transform: none;
+    color: var(--text-color);
+    transition: var(--transition);
+}
+.fa-github:hover{
+    color: var(--primary-color);
+}
