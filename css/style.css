@@ -18,4 +18,10 @@
 body{
     background-color: var(--background-color);
     color: var(--text-color);
+    border-radius:25px;
+}
+
+container{
+  padding:10px;
+  margin:10px;  
 }

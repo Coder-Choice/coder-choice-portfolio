@@ -1,0 +1,124 @@
+footer{
+    position: relative;
+    height: 188px;
+    flex-shrink: 0;
+    background: #010013;
+}
+#icon-container{
+    position: absolute;
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 20px;
+    top: 34px;
+    bottom: 123px;
+    left: 75px;
+}
+#details{
+    position: absolute;
+    bottom: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+#coc{
+    position: absolute;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 95px auto 71px 75px;
+}
+#email{
+    position: absolute;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 116px auto 71px 75px;
+}
+#ccgmail{
+    position: absolute;
+    color: #5271FF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 116px auto 71px 165px;
+}
+#back{
+    display: flex;
+    justify-content: space-between;
+}
+#back img{
+    margin: 97px -2px 28px 720px;
+}
+#back-to-top{
+    margin: 130px -2px 28px 674px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word
+}
+.codchoicefooter{
+    display: flex;
+    gap: 15px;
+}
+.codchoicefooter img{
+    position: absolute;
+    margin: -124px 370px -15px 1022px;
+}
+#cod{
+    position: absolute;
+    margin:  -123px 361px -23px 1077px;
+    color: #5271FF;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+#choice{
+    position: absolute;
+    margin: -123px 361px -23px 1182px;
+    color: white;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word
+}
+#sub-button{
+    position: absolute;
+    margin: -60px 10px 26px 978px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    height: 29px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #5271FF;
+}
+input{
+    position: absolute;
+    margin: -60px 55px 26px 1069px;
+    width: 206px;
+    height: 29px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #5271FF;
+    background: #D9D9D9;
+}

@@ -19,15 +19,59 @@
   <body>
     <!-- Html Structure for this Portfolio -->
     <section class="container">
-      <nav class="navbar">
-        <h1>
-          THis is our team's portfolio
-        </h1>
+      
+        <header class="header">
+
+          <div class="logo-name">
+          <img src="coder_schoice_logo.png" alt="error" class="logo" width="55"> 
+          <a href="./index.html" class="coderschoice">
+            <span class="Coders">Coder'</span>
+            <span class="Choice">Choice</span>
+          </a>
+        </div>
+
+      
+          <nav class="navbar">
+        
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="./pages/about.html"></a></li>
+          <li><a class="navbar-link" href="project.html">Projects</a></li>
+          <li><a class="navbar-link" href="members.html">Members</a></li>
+          <li><a class="navbar-link" href="contact.html">Contact</a></li>
+          <li><a class="navbar-link" href="./pages/faq.html">FAQ</a></li>
+        </ul>
       </nav>
-      <section class="homeSection"></section>
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+      </div>
+    </header>
+    
+      <section class="homeSection">
+        <div class = "left">
+          <p class = "heading">
+            Unlock Your Potential<br>
+            With<b> Coder’s Choice</b>
+          </p>
+          <p class = "sub-heading">
+            Empowerment in coding for all levels. Tools, resources, and community support. Explore our services to unleash your coding potential.
+          </p><br>
+          <div class="button-section">
+          <button class="button" >contact</button>
+          <button class="button-2" >register</button>
+          </div>
+        </div>
+        <div class="right">
+          <div class="glow"></div>
+          <img src="images/home.png" >
+        </div>
+        </div>
+      </section>
       <footer class="footer"></footer>
     </section>
     <!-- All JS files -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script type="module" src="./js/index.js"></script>
     <script type="module" src="./js/navbar.js"></script>
   </body>
