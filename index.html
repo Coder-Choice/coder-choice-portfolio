@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/home.css" />
-    <link rel="stylesheet" href="./css/about.css" />
+    <!-- <link rel="stylesheet" href="./css/about.css" /> -->
     <link rel="stylesheet" href="./css/project.css" />
     <link rel="stylesheet" href="./css/members.css" />
-    <link rel="stylesheet" href="./css/contact.css" />
+    <!-- <link rel="stylesheet" href="./css/contact.css" /> -->
     <link rel="stylesheet" href="./css/footer.css" />
     <!-- Add more CSS files as needed -->
   </head>
@@ -22,24 +22,25 @@
       
         <header class="header">
 
-         
           <div class="logo-name">
           <img src="coder_schoice_logo.png" alt="error" class="logo" width="55"> 
-          <ul class="coderschoice">
-            <li class="Coders">Coder's</li>
-            <li class="Choice">Choice</li>
-          </ul>
+          <a href="./index.html" class="coderschoice">
+            <span class="Coders">Coder's</span>
+            <span class="Choice">Choice</span>
+          </a>
         </div>
 
       
           <nav class="navbar">
-        
+        <div class="list">
         <ul class="navbar-list">
-          <li><a class="navbar-link" href="about.html">About</a></li>
+          <li><a class="navbar-link" href="./pages/about.html">About</a></li>
           <li><a class="navbar-link" href="project.html">Projects</a></li>
           <li><a class="navbar-link" href="members.html">Members</a></li>
           <li><a class="navbar-link" href="contact.html">Contact</a></li>
+          <li><a class="navbar-link" href="./pages/faq.html">FAQ</a></li>
         </ul>
+      </div>
       </nav>
       <div class="mobile-navbar-btn">
         <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
@@ -48,21 +49,21 @@
     </header>
     
       <section class="homeSection">
-        <div class = "flex-container">
-        <div id = "home">
-          <p class = "unlock">
+        <div class = "left">
+          <p class = "heading">
             Unlock Your Potential<br>
-            With Coder’s Choice
+            With<b> Coder’s Choice</b>
           </p>
-          <p class = "lorem">
-            Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Fusce nec justo id libero convallis<br> consequat. Nullam at turpis
+          <p class = "sub-heading">
+            Empowerment in coding for all levels. Tools, resources, and community support. Explore our services to unleash your coding potential.
           </p><br>
-          <div class="container">
-          <button class="button1" id="con" >contact</button>
-          <button class="button1" id="reg">register</button>
+          <div class="button-section">
+          <button class="button" >contact</button>
+          <button class="button-2" >register</button>
           </div>
         </div>
-        <div class="img">
+        <div class="right">
+          <div class="glow"></div>
           <img src="images/home.png" >
         </div>
         </div>
