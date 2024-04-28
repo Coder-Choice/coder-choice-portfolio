@@ -8,19 +8,12 @@
 html{
     font-size:6.5%; 
     overflow-x:hidden;
-<<<<<<< HEAD
     
-=======
-
->>>>>>> main
 }
 
 body{
     overflow-x:hidden; 
-<<<<<<< HEAD
     overflow-x:hidden;
-=======
->>>>>>> main
 }
 
 .header{
@@ -43,7 +36,13 @@ body{
     border: 2px solid #878787;
     background: rgba(217, 217, 217, 0.17);
     backdrop-filter: blur(125px);
+    padding-left:50rem;
+    padding-right:50rem;
+    padding-top:10rem;
+    padding-bottom:10rem;
+
 }
+
 .navbar-list{
     display:flex;
     gap:50rem;
@@ -53,6 +52,9 @@ body{
 
 .navbar-link{
     padding:10px;
+    /* background-color: red; */
+    border-radius:35px;   
+
 }
 .navbar-link:link,
 .navbar-link:visited{
@@ -66,7 +68,7 @@ body{
 }
 
 .navbar-link:hover, .navbar-link:active{
-    background-color:rgb(85, 109, 241);
+    background-color:rgb(255, 255, 255);
     color:rgb(2, 3, 47);
     border-radius:35px;   
 }
