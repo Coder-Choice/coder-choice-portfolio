@@ -33,6 +33,7 @@
 
 /*First Grid Section*/
 #grid1{
+    justify-content: center;
     margin: 96px 218px 34px 218px;
     display: grid;
     grid-template-rows: 390px 50px 290px;
@@ -131,6 +132,7 @@
 }
 /*Second Grid Section*/
 #grid2{
+    justify-content: center;
     margin: 34px 218px 50px 218px;
     display: grid;
     grid-template-rows: 390px 50px 290px;
